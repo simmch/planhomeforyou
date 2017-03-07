@@ -74,6 +74,7 @@
                             <li><a href="#service">Services</a></li>
                             <li><a href="#team">Contacts</a></li>
                             <li><a href="#portfolio">FAQ</a></li>
+                          <!--Add extra menu items here-->
                             <!-- <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#testimonial">Testimonials</a></li> -->
                             <!-- <li class="dropdown">
