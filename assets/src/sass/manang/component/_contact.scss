@@ -1,0 +1,197 @@
+/*Form Nao*/
+/* Nao */
+
+section.section.contact-sec {
+    padding-bottom: 0;
+}
+.input--nao {
+    overflow: hidden;
+    padding-top: 2em;
+}
+
+.input__field--nao {
+    padding: 0.5em 0em 0.25em;
+    width: 100%;
+    background: transparent;
+    color: #9da8b2;
+    font-size: 1.2em;
+}
+.input__label--nao {
+    position: absolute;
+    top: -32px;
+    font-size: 0.85em;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0em;
+    pointer-events: none;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: -webkit-transform 0.2s 0.15s, color 1s;
+    transition: transform 0.2s 0.15s, color 1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.graphic--nao {
+    stroke: #dadada;
+    pointer-events: none;
+    -webkit-transition: -webkit-transform 0.7s, stroke 0.7s;
+    transition: transform 0.7s, stroke 0.7s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+}
+.input__field--nao:focus + .input__label--nao,
+.input--filled .input__label--nao {
+    color: #333;
+    -webkit-transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+    transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+}
+.input__field--nao:focus ~ .graphic--nao,
+.input--filled .graphic--nao {
+    stroke: $color__theme;
+    -webkit-transform: translate3d(-66.6%, 0, 0);
+    transform: translate3d(-66.6%, 0, 0);
+}
+.input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.input__field {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0.8em 0.8em 0.5em 0.8em;
+    border: none;
+    border-radius: 0;
+    color: #666;
+    -webkit-appearance: none;
+    background: #f5f5f5;
+}
+.input__field:focus {
+    outline: none;
+}
+.input__label {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 57%;
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.input__label-content {
+    position: relative;
+    display: block;
+    padding: 1.6em 0 0 0;
+    width: 100%;
+}
+.graphic {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    fill: none;
+}
+.icon {
+    color: #ddd;
+    font-size: 150%;
+}
+.input--nao.message{
+    margin-top: 30px;
+}
+section.contact .ajax-loader {
+    position: relative;
+}
+section.contact .ajax-loader img {
+    position: relative;
+    float: right;
+    top: 31px;
+    left: -46px;
+}
+form#contact_form {
+    margin-top: 60px;
+    bottom: 0;
+}
+.contact-img {
+    padding-right: 25px;
+}
+
+/*......... mail response ....... */
+#mail-status{
+    text-align: center;
+}
+#mail-status .success {
+    background: #ACF95F;
+    color: #036B03;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 28px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#mail-status .error{
+    background: #E2827F;
+    color: #CA241F;
+    font-size: 16px;
+    padding: 10px 28px;
+    margin-bottom: 40px;
+}
+
+#contact_form input.submit {
+    position: relative;
+    margin-top: 28px;
+    font-size: 18px;
+    padding: 13px 39px;
+    float: left;
+    margin-left: 15px;
+}
+#contact_form input.submit:hover{
+    background:transparent;
+    color: #666;
+}
+.contact-info {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    z-index: 99 !important;
+    background: #0a0a0a;
+    padding: 50px 0;
+}
+.contact-content h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact-content-wrapper {
+    position: relative;
+}
+.contact-icon i {
+    font-size: 65px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    color: rgba(249, 249, 249, 0.79);
+}
+.botfooter {
+    background: #0a0a0a;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+div#map {
+    margin-top: 40px;
+}

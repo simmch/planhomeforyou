@@ -1,0 +1,119 @@
+/**
+* Manang -  Creative One page Business and Agency Template
+* File : style.css
+* Date :  20/2/2017
+* Author : Axel_design <sushil.th94@gmail.com>
+*/
+
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Bootstrap
+2. Base
+    ## Animate
+    ## Helpers
+    ## fonts
+    ## typography
+3. layouts
+    ## footer
+    ## page-content
+    ## navigation
+    ## sections
+4. components
+    ## banner
+    ## top-header
+    ## header
+    ## about
+    ## botfooter
+    ## cta
+    ## portfolio
+    ## counter
+    ## features
+    ## team
+    ## subscribe
+    ## blog
+    ## client
+    ## prefooter
+    ## pricing
+    ## contact
+    ## testimonial
+5. vendors
+    ## slick
+    ## ionicons
+    ## magnific-popup
+    ## youtubepopup
+    ## aos
+    ## vendor-overrides
+6. utils
+    ## hover-effects
+    ## media-queries
+
+--------------------------------------------------------------*/
+
+@import "manang/utils/variables";
+
+
+/*--------------------------------------------------------------
+1. Bootstrap
+--------------------------------------------------------------*/
+@import "vendor/bootstrap",
+        "vendor/font-awesome";
+
+
+/*--------------------------------------------------------------
+2. Base
+--------------------------------------------------------------*/
+@import "vendor/animate",
+        "manang/base/helpers",
+        "manang/base/fonts",
+        "manang/base/typography";
+
+
+/*--------------------------------------------------------------
+
+3. layout
+--------------------------------------------------------------*/
+@import "manang/layout/footer",
+        "manang/layout/page-content",
+        "manang/layout/navigation",
+        "manang/layout/sections";
+
+
+/*--------------------------------------------------------------
+4. Components
+--------------------------------------------------------------*/
+@import "manang/component/banner",
+        "manang/component/top-header",
+        "manang/component/header",
+        "manang/component/about",
+        "manang/component/botfooter",
+        "manang/component/cta",
+        "manang/component/portfolio",
+        "manang/component/counter",
+        "manang/component/features",
+        "manang/component/team",
+        "manang/component/subscribe",
+        "manang/component/blog",
+        "manang/component/client",
+        "manang/component/prefooter",
+        "manang/component/pricing",
+        "manang/component/contact",
+        "manang/component/testimonial";
+
+
+/*--------------------------------------------------------------
+5. Vendors
+--------------------------------------------------------------*/
+@import "vendor/slick",
+        "vendor/ionicons",
+        "vendor/magnific-popup",
+        "vendor/youtubepopup",
+        "vendor/aos",
+        "vendor/vendor-overrides";
+
+/*--------------------------------------------------------------
+6. utils
+--------------------------------------------------------------*/
+@import "manang/utils/hover-effects",
+        "manang/utils/media-queries";
+

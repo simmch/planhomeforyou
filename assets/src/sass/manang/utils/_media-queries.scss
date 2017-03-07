@@ -1,0 +1,105 @@
+/* ....................Media Queries....................... */
+/*Media Queries*/
+
+@media only screen and (max-width: 1400px){
+    .mg-banner-slider .slider-item, .videobg-wrapper,.plax-wrap,.mg-banner-wrapper{
+        height: 800px;
+    }
+    .mg-banner-slider .slider-item .banner-text-wrap, .videobg-wrapper .banner-text-wrap{
+        padding-top: 0px !important;
+    }
+    .mg-banner-slider .slider-item .banner-text-wrap, .videobg-wrapper .banner-text-wrap{
+        padding-top: -20px !important;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width : 989px) {
+    .team-classic .our-team .team-content:before, .team-classic .our-team .team-content:after{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .banner-text-wrap h2 {
+        font-size: 52px !important;
+    }
+    .nav-wrapper {
+        min-height: 80px;
+        line-height: 80px;
+    }
+    .navbar-toggle {
+        margin-top: 25px;
+    }
+    .counter-wrap .col-md-3 {
+        margin-bottom: 55px;
+    }
+    .counter-wrap .col-md-3:last-child{
+        margin-bottom: 0;
+    }
+    .callout-sec .section-title {
+        text-align: center;
+    }
+    .callout-sec .row{
+        margin-bottom :0;
+    }
+    .callout-sec .row .col-md-6{
+        margin-bottom: 30px;
+    }
+    .fancybox-item{
+        width: 50%;
+    }
+    .blog-sec .col-md-4{
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .contact-sec .col-md-3 {
+        text-align: center;
+    }
+    .input--nao{
+        margin-bottom: 30px;
+    }
+    div#map{
+        margin-top: 40px;
+    }
+    .contact-info-container .col-md-4{
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .fancybox-item{
+        width: 100%;
+    }
+    .subscribe-sec .subscribe-content {
+        text-align: center;
+    }
+    .nav-wrapper .navbar .nav li > a {
+        padding: 10px 14px;
+        color: #444;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .banner-text-wrap h2 {
+        font-size: 47px !important;
+        line-height: 50px !important;
+    }
+    .subscribe-sec .form-wrapper input{
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+    .subscribe-sec .form-wrapper button{
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+}

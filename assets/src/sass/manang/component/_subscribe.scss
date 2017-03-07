@@ -1,0 +1,64 @@
+.subscribe-sec {
+    text-align: center;
+    background: #7589ec;
+    outline: 0;
+    padding: 80px 0;
+
+    h2{
+        color: #fff;
+        font-size: 27px;
+        margin-top: 0;
+    }
+    .subscribe-content{
+        z-index: 99;
+        position: relative;
+        color: #fff;
+        display: table;
+    }
+    .contact-icon {
+        margin-right: 22px;
+        display: table-cell;
+        vertical-align: middle;
+        padding-right: 30px;
+        i{
+            font-size: 70px;
+        }
+    }
+}
+.subscribe-sec .form-wrapper input {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 35px 0 0 35px;
+    background: #fff;
+    font-size: 14px;
+    padding-left: 35px;
+    height: 55px;
+    width: 305px !important;
+    color: #666;
+    float: none !important;
+    border-right: none !important;
+}
+.subscribe-sec .form-wrapper button {
+    border-left: none;
+    padding: 14px 27px;
+    border-radius: 0 35px 35px 0;
+    background: $color__theme;
+    padding-right: 30px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    outline: 0!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 55px;
+    width: 155px;
+    transition: all 0.5s ease 0s;
+}
+.subscribe-sec .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}

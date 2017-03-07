@@ -1,0 +1,205 @@
+.callout-sec{
+    .row{
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 0;
+            .callout-item:before{
+                display: none;
+            }
+        }
+    }
+    .callout-item.icon-top{
+        text-align: center;
+        position: relative;
+        .callout-icon{
+            i{
+                font-size: 48px;
+                color: $color__theme;
+            }
+        }
+        h3 {
+            margin: 0;
+            font-size: 20px;
+            text-transform: capitalize;
+            margin-top: 14px;
+            margin-bottom: 7px;
+        }
+    }
+    .callout-item:before {
+        background: #eee;
+        padding-right: 12px;
+        position: absolute;
+        content: "";
+        width: 100%;
+        bottom: -26px;
+        left: 0;
+        height: 1px;
+    }
+    .callout-item:after {
+        background: #eee;
+        position: absolute;
+        content: "";
+        width: 1px;
+        top: -25px;
+        right: -15px;
+        height: 240px;
+    }
+    .callout-item.item-last:after{
+        display: none;
+    }
+    .callout-icon img {
+        max-width: 65px;
+        margin-bottom: 15px;
+    }
+}
+
+.callout-sec{
+    .row{
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    .callout-item.icon-left{
+        text-align: left;
+        .callout-icon{
+            i{
+                font-size: 43px;
+                color: $color__theme;
+            }
+            float:left;
+        }
+        h3 {
+            margin: 0;
+            font-size: 21px;
+            text-transform: capitalize;
+            margin-top: 0;
+            margin-bottom: 7px;
+            font-weight: 600;
+            margin-top: 13px;
+        }
+
+        .callout-content{
+            margin-left: 70px;
+        }
+        &:before, &:after{
+            display: none;
+        }
+    }
+    .section-title {
+        text-align: left;
+        h2{
+            line-height: 38px;
+        }
+    }
+}
+
+.callout-sec{
+    .row{
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    .callout-item.icon-right{
+        text-align: right;
+        .callout-icon{
+            i{
+                font-size: 48px;
+                color: $color__theme;
+            }
+            float:right;
+        }
+        h3 {
+            margin: 0;
+            font-size: 20px;
+            text-transform: capitalize;
+            margin-top: 0;
+            margin-bottom: 7px;
+        }
+
+        .callout-content{
+            margin-right: 70px;
+        }
+
+    }
+
+    .callout-item.boxed-style{
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        padding: 30px 17px;
+        background-color: #f5f5f5;
+        position: relative;
+        border-bottom: 4px solid #dcdcdc;
+
+        &:before, &:after{
+            display: none;
+        }
+    }
+}
+
+.callout-item.icon-top{
+    text-align: left;
+    .callout-icon{
+        i{
+            font-size: 48px;
+            color: $color__theme;
+        }
+    }
+    h3 {
+        margin: 0;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-top: 14px;
+        margin-bottom: 7px;
+    }
+}
+
+// Fancybox
+
+.fancybox-item {
+    width: 25%;
+    float: left;
+    text-align: left;
+    padding: 55px 45px;
+    background: #7c8fea;
+    position: relative
+}
+.fancybox-item span {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 84px;
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 46px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.fancybox-item a.readmore {
+    color: #fff;
+    padding: 2px 10px;
+    margin-top: 13px;
+    display: inline-block;
+    text-decoration: none;
+    background: #7a90ff;
+    span{
+        margin-left: 10px;
+    }
+}
+.fancybox-item:nth-child(2) {
+    background: #7589ec;
+}
+.fancybox-item:nth-child(3) {
+    background: #7b8ff5;
+}
+.fancybox-item h3 {
+    color: #fff;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+.fancybox-item p{
+    color: #fff;
+}
